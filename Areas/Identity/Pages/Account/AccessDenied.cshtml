@@ -1,0 +1,14 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "Access denied";
+}
+@attribute [AllowAnonymous]
+
+<header>
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">You do not have access to this resource.</p>
+    <p class="text-dark">Please <a asp-area="Identity" asp-page="/Account/Login">log in</a> or 
+                                <a asp-area="Identity" asp-page="/Account/Register">register</a> for free.</p>
+</header>
