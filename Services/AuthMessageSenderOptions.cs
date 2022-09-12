@@ -1,4 +1,4 @@
-﻿namespace CustomerLogin.Services
+﻿namespace StaffLogin.Services
 {
     public class AuthMessageSenderOptions
     {

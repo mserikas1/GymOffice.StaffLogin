@@ -4,7 +4,7 @@ using SendGrid;
 using SendGrid.Helpers.Mail;
 using System.Net.Mail;
 
-namespace CustomerLogin.Services;
+namespace StaffLogin.Services;
 
 public class EmailSender : IEmailSender
 {

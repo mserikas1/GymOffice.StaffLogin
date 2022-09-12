@@ -1,4 +1,3 @@
-using CustomerLogin.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
@@ -9,6 +8,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using StaffLogin.Areas.Identity;
 using StaffLogin.Data;
+using StaffLogin.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
